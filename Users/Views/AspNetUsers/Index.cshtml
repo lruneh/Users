@@ -62,7 +62,7 @@
 @foreach (var item in Model) {
     <tr>
         <td>
-            @Html.DisplayFor(modelItem => item.FirstName)
+            <a href="~/CourseStudents/Create/@Html.DisplayFor(modelItem => item.Id)">@Html.DisplayFor(modelItem => item.FirstName)</a>
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.Email)

@@ -35,5 +35,9 @@ namespace Users.Models
                 .WithRequired(e => e.AspNetUsers)
                 .HasForeignKey(e => e.UserId);
         }
+
+        public System.Data.Entity.DbSet<Users.Models.Courses> Courses { get; set; }
+
+        public System.Data.Entity.DbSet<Users.Models.CourseStudents> CourseStudents { get; set; }
     }
 }

@@ -178,6 +178,8 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AspNetRolesController.cs" />
     <Compile Include="Controllers\AspNetUsersController.cs" />
+    <Compile Include="Controllers\CoursesController.cs" />
+    <Compile Include="Controllers\CourseStudentsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
@@ -187,12 +189,22 @@
     <Compile Include="Migrations\201902251632388_customFields.Designer.cs">
       <DependentUpon>201902251632388_customFields.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201902281954533_ZipAndState.cs" />
+    <Compile Include="Migrations\201902281954533_ZipAndState.Designer.cs">
+      <DependentUpon>201902281954533_ZipAndState.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201903011923135_Courses.cs" />
+    <Compile Include="Migrations\201903011923135_Courses.Designer.cs">
+      <DependentUpon>201903011923135_Courses.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\AspNetRoles.cs" />
     <Compile Include="Models\AspNetUserClaims.cs" />
     <Compile Include="Models\AspNetUserLogins.cs" />
     <Compile Include="Models\AspNetUsers.cs" />
+    <Compile Include="Models\Courses.cs" />
+    <Compile Include="Models\CourseStudents.cs" />
     <Compile Include="Models\C__MigrationHistory.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageUser.cs" />
@@ -266,6 +278,16 @@
     <Content Include="Views\AspNetRoles\Details.cshtml" />
     <Content Include="Views\AspNetRoles\Edit.cshtml" />
     <Content Include="Views\AspNetRoles\Index.cshtml" />
+    <Content Include="Views\Courses\Create.cshtml" />
+    <Content Include="Views\Courses\Delete.cshtml" />
+    <Content Include="Views\Courses\Details.cshtml" />
+    <Content Include="Views\Courses\Edit.cshtml" />
+    <Content Include="Views\Courses\Index.cshtml" />
+    <Content Include="Views\CourseStudents\Create.cshtml" />
+    <Content Include="Views\CourseStudents\Delete.cshtml" />
+    <Content Include="Views\CourseStudents\Details.cshtml" />
+    <Content Include="Views\CourseStudents\Edit.cshtml" />
+    <Content Include="Views\CourseStudents\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -286,6 +308,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201902251632388_customFields.resx">
       <DependentUpon>201902251632388_customFields.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902281954533_ZipAndState.resx">
+      <DependentUpon>201902281954533_ZipAndState.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903011923135_Courses.resx">
+      <DependentUpon>201903011923135_Courses.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

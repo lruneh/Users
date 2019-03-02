@@ -21,6 +21,9 @@ namespace Users.Models
         public string LastName { get; set; }
         public string Street { get; set; }
         public string City { get; set; }
+        public int ZipCode { get; set; }
+        public string State { get; set; }
+    
 
     }
 

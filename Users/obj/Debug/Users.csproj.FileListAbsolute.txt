@@ -109,3 +109,5 @@ C:\Users\lasse\source\repos\Users\Users\obj\Debug\Users.dll
 C:\Users\lasse\source\repos\Users\Users\obj\Debug\Users.pdb
 C:\Users\lasse\source\repos\Users\Users\obj\Debug\Users.Migrations.customFields.resources
 C:\Users\lasse\source\repos\Users\Users\obj\Debug\Users.csproj.GenerateResource.cache
+C:\Users\lasse\source\repos\Users\Users\obj\Debug\Users.Migrations.ZipAndState.resources
+C:\Users\lasse\source\repos\Users\Users\obj\Debug\Users.Migrations.Courses.resources
